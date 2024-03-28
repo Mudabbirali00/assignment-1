@@ -1,15 +1,21 @@
 {
-  "name": "typescript2",
+  "name": "82374238_call",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"simple calculator\"",
   "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "mudabbirali",
+  "license": "MIT",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.11.20"
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.28"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16"
   }
 }
